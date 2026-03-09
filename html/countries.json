@@ -1,0 +1,2172 @@
+[
+  {
+    "flag": "🇮🇳",
+    "common": "India",
+    "full": "Republic of India",
+    "iso2": "IN",
+    "aliases": [
+      "Republic of India"
+    ],
+    "pop": 1441
+  },
+  {
+    "flag": "🇨🇳",
+    "common": "China",
+    "full": "People's Republic of China",
+    "iso2": "CN",
+    "aliases": [
+      "People's Republic of China"
+    ],
+    "pop": 1412
+  },
+  {
+    "flag": "🇺🇸",
+    "common": "United States",
+    "full": "United States of America",
+    "iso2": "US",
+    "aliases": [
+      "USA",
+      "US",
+      "America",
+      "United States of America"
+    ],
+    "pop": 335
+  },
+  {
+    "flag": "🇮🇩",
+    "common": "Indonesia",
+    "full": "Republic of Indonesia",
+    "iso2": "ID",
+    "aliases": [
+      "Republic of Indonesia"
+    ],
+    "pop": 278
+  },
+  {
+    "flag": "🇵🇰",
+    "common": "Pakistan",
+    "full": "Islamic Republic of Pakistan",
+    "iso2": "PK",
+    "aliases": [
+      "Islamic Republic of Pakistan"
+    ],
+    "pop": 240
+  },
+  {
+    "flag": "🇳🇬",
+    "common": "Nigeria",
+    "full": "Federal Republic of Nigeria",
+    "iso2": "NG",
+    "aliases": [
+      "Federal Republic of Nigeria"
+    ],
+    "pop": 223
+  },
+  {
+    "flag": "🇧🇷",
+    "common": "Brazil",
+    "full": "Federative Republic of Brazil",
+    "iso2": "BR",
+    "aliases": [
+      "Federative Republic of Brazil"
+    ],
+    "pop": 216
+  },
+  {
+    "flag": "🇧🇩",
+    "common": "Bangladesh",
+    "full": "People's Republic of Bangladesh",
+    "iso2": "BD",
+    "aliases": [
+      "People's Republic of Bangladesh"
+    ],
+    "pop": 172
+  },
+  {
+    "flag": "🇷🇺",
+    "common": "Russia",
+    "full": "Russian Federation",
+    "iso2": "RU",
+    "aliases": [
+      "Russia",
+      "Russian Federation"
+    ],
+    "pop": 144
+  },
+  {
+    "flag": "🇲🇽",
+    "common": "Mexico",
+    "full": "United Mexican States",
+    "iso2": "MX",
+    "aliases": [
+      "United Mexican States"
+    ],
+    "pop": 129
+  },
+  {
+    "flag": "🇪🇹",
+    "common": "Ethiopia",
+    "full": "Ethiopia",
+    "iso2": "ET",
+    "aliases": [],
+    "pop": 128
+  },
+  {
+    "flag": "🇯🇵",
+    "common": "Japan",
+    "full": "Japan",
+    "iso2": "JP",
+    "aliases": [],
+    "pop": 124
+  },
+  {
+    "flag": "🇵🇭",
+    "common": "Philippines",
+    "full": "Republic of the Philippines",
+    "iso2": "PH",
+    "aliases": [
+      "Republic of the Philippines"
+    ],
+    "pop": 115
+  },
+  {
+    "flag": "🇨🇩",
+    "common": "Congo - Kinshasa",
+    "full": "Democratic Republic of the Congo",
+    "iso2": "CD",
+    "aliases": [
+      "DR Congo",
+      "Congo-Kinshasa",
+      "Congo (Dem. Rep.)",
+      "Democratic Republic of the Congo"
+    ],
+    "pop": 111
+  },
+  {
+    "flag": "🇪🇬",
+    "common": "Egypt",
+    "full": "Arab Republic of Egypt",
+    "iso2": "EG",
+    "aliases": [
+      "Arab Republic of Egypt"
+    ],
+    "pop": 106
+  },
+  {
+    "flag": "🇻🇳",
+    "common": "Vietnam",
+    "full": "Socialist Republic of Viet Nam",
+    "iso2": "VN",
+    "aliases": [
+      "Viet Nam",
+      "Socialist Republic of Viet Nam"
+    ],
+    "pop": 98
+  },
+  {
+    "flag": "🇮🇷",
+    "common": "Iran",
+    "full": "Islamic Republic of Iran",
+    "iso2": "IR",
+    "aliases": [
+      "Iran",
+      "Islamic Republic of Iran"
+    ],
+    "pop": 89
+  },
+  {
+    "flag": "🇹🇷",
+    "common": "Turkey",
+    "full": "Republic of Turkiye",
+    "iso2": "TR",
+    "aliases": [
+      "Türkiye",
+      "Republic of Turkiye"
+    ],
+    "pop": 85
+  },
+  {
+    "flag": "🇩🇪",
+    "common": "Germany",
+    "full": "Federal Republic of Germany",
+    "iso2": "DE",
+    "aliases": [
+      "Federal Republic of Germany"
+    ],
+    "pop": 84
+  },
+  {
+    "flag": "🇹🇭",
+    "common": "Thailand",
+    "full": "Thailand",
+    "iso2": "TH",
+    "aliases": [],
+    "pop": 71
+  },
+  {
+    "flag": "🇫🇷",
+    "common": "France",
+    "full": "France",
+    "iso2": "FR",
+    "aliases": [],
+    "pop": 68
+  },
+  {
+    "flag": "🇬🇧",
+    "common": "United Kingdom",
+    "full": "United Kingdom of Great Britain and Northern Ireland",
+    "iso2": "GB",
+    "aliases": [
+      "UK",
+      "Britain",
+      "Great Britain",
+      "Britain (UK)",
+      "United Kingdom of Great Britain and Northern Ireland"
+    ],
+    "pop": 68
+  },
+  {
+    "flag": "🇹🇿",
+    "common": "Tanzania",
+    "full": "United Republic of Tanzania",
+    "iso2": "TZ",
+    "aliases": [
+      "Tanzania",
+      "United Republic of Tanzania"
+    ],
+    "pop": 67
+  },
+  {
+    "flag": "🇿🇦",
+    "common": "South Africa",
+    "full": "South Africa",
+    "iso2": "ZA",
+    "aliases": [],
+    "pop": 60
+  },
+  {
+    "flag": "🇮🇹",
+    "common": "Italy",
+    "full": "Italian Republic",
+    "iso2": "IT",
+    "aliases": [
+      "Italian Republic"
+    ],
+    "pop": 59
+  },
+  {
+    "flag": "🇰🇪",
+    "common": "Kenya",
+    "full": "Kenya",
+    "iso2": "KE",
+    "aliases": [],
+    "pop": 55
+  },
+  {
+    "flag": "🇲🇲",
+    "common": "Myanmar (Burma)",
+    "full": "Myanmar (Burma)",
+    "iso2": "MM",
+    "aliases": [
+      "Burma",
+      "Myanmar"
+    ],
+    "pop": 55
+  },
+  {
+    "flag": "🇨🇴",
+    "common": "Colombia",
+    "full": "Colombia",
+    "iso2": "CO",
+    "aliases": [],
+    "pop": 52
+  },
+  {
+    "flag": "🇰🇷",
+    "common": "South Korea",
+    "full": "Republic of Korea",
+    "iso2": "KR",
+    "aliases": [
+      "South Korea",
+      "Korea",
+      "Korea (South)",
+      "Republic of Korea"
+    ],
+    "pop": 52
+  },
+  {
+    "flag": "🇸🇩",
+    "common": "Sudan",
+    "full": "Sudan",
+    "iso2": "SD",
+    "aliases": [],
+    "pop": 49
+  },
+  {
+    "flag": "🇺🇬",
+    "common": "Uganda",
+    "full": "Uganda",
+    "iso2": "UG",
+    "aliases": [],
+    "pop": 49
+  },
+  {
+    "flag": "🇪🇸",
+    "common": "Spain",
+    "full": "Spain",
+    "iso2": "ES",
+    "aliases": [],
+    "pop": 48
+  },
+  {
+    "flag": "🇩🇿",
+    "common": "Algeria",
+    "full": "Algeria",
+    "iso2": "DZ",
+    "aliases": [],
+    "pop": 46
+  },
+  {
+    "flag": "🇦🇷",
+    "common": "Argentina",
+    "full": "Argentine Republic",
+    "iso2": "AR",
+    "aliases": [
+      "Argentine Republic"
+    ],
+    "pop": 46
+  },
+  {
+    "flag": "🇮🇶",
+    "common": "Iraq",
+    "full": "Iraq",
+    "iso2": "IQ",
+    "aliases": [],
+    "pop": 45
+  },
+  {
+    "flag": "🇺🇦",
+    "common": "Ukraine",
+    "full": "Ukraine",
+    "iso2": "UA",
+    "aliases": [],
+    "pop": 44
+  },
+  {
+    "flag": "🇦🇫",
+    "common": "Afghanistan",
+    "full": "Afghanistan",
+    "iso2": "AF",
+    "aliases": [],
+    "pop": 42
+  },
+  {
+    "flag": "🇨🇦",
+    "common": "Canada",
+    "full": "Canada",
+    "iso2": "CA",
+    "aliases": [],
+    "pop": 38
+  },
+  {
+    "flag": "🇲🇦",
+    "common": "Morocco",
+    "full": "Morocco",
+    "iso2": "MA",
+    "aliases": [],
+    "pop": 38
+  },
+  {
+    "flag": "🇵🇱",
+    "common": "Poland",
+    "full": "Poland",
+    "iso2": "PL",
+    "aliases": [],
+    "pop": 38
+  },
+  {
+    "flag": "🇦🇴",
+    "common": "Angola",
+    "full": "Angola",
+    "iso2": "AO",
+    "aliases": [],
+    "pop": 37
+  },
+  {
+    "flag": "🇸🇦",
+    "common": "Saudi Arabia",
+    "full": "Saudi Arabia",
+    "iso2": "SA",
+    "aliases": [],
+    "pop": 36
+  },
+  {
+    "flag": "🇺🇿",
+    "common": "Uzbekistan",
+    "full": "Uzbekistan",
+    "iso2": "UZ",
+    "aliases": [],
+    "pop": 36
+  },
+  {
+    "flag": "🇲🇾",
+    "common": "Malaysia",
+    "full": "Malaysia",
+    "iso2": "MY",
+    "aliases": [],
+    "pop": 35
+  },
+  {
+    "flag": "🇾🇪",
+    "common": "Yemen",
+    "full": "Yemen",
+    "iso2": "YE",
+    "aliases": [],
+    "pop": 35
+  },
+  {
+    "flag": "🇬🇭",
+    "common": "Ghana",
+    "full": "Ghana",
+    "iso2": "GH",
+    "aliases": [],
+    "pop": 34
+  },
+  {
+    "flag": "🇵🇪",
+    "common": "Peru",
+    "full": "Peru",
+    "iso2": "PE",
+    "aliases": [],
+    "pop": 34
+  },
+  {
+    "flag": "🇲🇿",
+    "common": "Mozambique",
+    "full": "Mozambique",
+    "iso2": "MZ",
+    "aliases": [],
+    "pop": 33
+  },
+  {
+    "flag": "🇳🇵",
+    "common": "Nepal",
+    "full": "Nepal",
+    "iso2": "NP",
+    "aliases": [],
+    "pop": 31
+  },
+  {
+    "flag": "🇲🇬",
+    "common": "Madagascar",
+    "full": "Madagascar",
+    "iso2": "MG",
+    "aliases": [],
+    "pop": 30
+  },
+  {
+    "flag": "🇨🇲",
+    "common": "Cameroon",
+    "full": "Cameroon",
+    "iso2": "CM",
+    "aliases": [],
+    "pop": 29
+  },
+  {
+    "flag": "🇨🇮",
+    "common": "Côte d’Ivoire",
+    "full": "Côte d’Ivoire",
+    "iso2": "CI",
+    "aliases": [
+      "Ivory Coast",
+      "Cote d'Ivoire",
+      "Côte d'Ivoire"
+    ],
+    "pop": 29
+  },
+  {
+    "flag": "🇻🇪",
+    "common": "Venezuela",
+    "full": "Bolivarian Republic of Venezuela",
+    "iso2": "VE",
+    "aliases": [
+      "Venezuela",
+      "Bolivarian Republic of Venezuela"
+    ],
+    "pop": 29
+  },
+  {
+    "flag": "🇳🇪",
+    "common": "Niger",
+    "full": "Niger",
+    "iso2": "NE",
+    "aliases": [],
+    "pop": 27
+  },
+  {
+    "flag": "🇦🇺",
+    "common": "Australia",
+    "full": "Australia",
+    "iso2": "AU",
+    "aliases": [],
+    "pop": 26
+  },
+  {
+    "flag": "🇰🇵",
+    "common": "North Korea",
+    "full": "Democratic People's Republic of Korea",
+    "iso2": "KP",
+    "aliases": [
+      "North Korea",
+      "DPRK",
+      "Korea (North)",
+      "Democratic People's Republic of Korea"
+    ],
+    "pop": 26
+  },
+  {
+    "flag": "🇲🇱",
+    "common": "Mali",
+    "full": "Mali",
+    "iso2": "ML",
+    "aliases": [],
+    "pop": 24
+  },
+  {
+    "flag": "🇹🇼",
+    "common": "Taiwan",
+    "full": "Taiwan",
+    "iso2": "TW",
+    "aliases": [
+      "Chinese Taipei"
+    ],
+    "pop": 24
+  },
+  {
+    "flag": "🇧🇫",
+    "common": "Burkina Faso",
+    "full": "Burkina Faso",
+    "iso2": "BF",
+    "aliases": [],
+    "pop": 23
+  },
+  {
+    "flag": "🇸🇾",
+    "common": "Syria",
+    "full": "Syrian Arab Republic",
+    "iso2": "SY",
+    "aliases": [
+      "Syria",
+      "Syrian Arab Republic"
+    ],
+    "pop": 23
+  },
+  {
+    "flag": "🇱🇰",
+    "common": "Sri Lanka",
+    "full": "Sri Lanka",
+    "iso2": "LK",
+    "aliases": [
+      "Sri Lanka"
+    ],
+    "pop": 22
+  },
+  {
+    "flag": "🇲🇼",
+    "common": "Malawi",
+    "full": "Malawi",
+    "iso2": "MW",
+    "aliases": [],
+    "pop": 21
+  },
+  {
+    "flag": "🇰🇿",
+    "common": "Kazakhstan",
+    "full": "Kazakhstan",
+    "iso2": "KZ",
+    "aliases": [],
+    "pop": 20
+  },
+  {
+    "flag": "🇿🇲",
+    "common": "Zambia",
+    "full": "Zambia",
+    "iso2": "ZM",
+    "aliases": [],
+    "pop": 20
+  },
+  {
+    "flag": "🇹🇩",
+    "common": "Chad",
+    "full": "Chad",
+    "iso2": "TD",
+    "aliases": [],
+    "pop": 19
+  },
+  {
+    "flag": "🇨🇱",
+    "common": "Chile",
+    "full": "Chile",
+    "iso2": "CL",
+    "aliases": [],
+    "pop": 19
+  },
+  {
+    "flag": "🇷🇴",
+    "common": "Romania",
+    "full": "Romania",
+    "iso2": "RO",
+    "aliases": [],
+    "pop": 19
+  },
+  {
+    "flag": "🇸🇴",
+    "common": "Somalia",
+    "full": "Somalia",
+    "iso2": "SO",
+    "aliases": [],
+    "pop": 19
+  },
+  {
+    "flag": "🇪🇨",
+    "common": "Ecuador",
+    "full": "Ecuador",
+    "iso2": "EC",
+    "aliases": [],
+    "pop": 18
+  },
+  {
+    "flag": "🇬🇹",
+    "common": "Guatemala",
+    "full": "Guatemala",
+    "iso2": "GT",
+    "aliases": [],
+    "pop": 18
+  },
+  {
+    "flag": "🇳🇱",
+    "common": "Netherlands",
+    "full": "Netherlands",
+    "iso2": "NL",
+    "aliases": [],
+    "pop": 18
+  },
+  {
+    "flag": "🇸🇳",
+    "common": "Senegal",
+    "full": "Senegal",
+    "iso2": "SN",
+    "aliases": [],
+    "pop": 18
+  },
+  {
+    "flag": "🇰🇭",
+    "common": "Cambodia",
+    "full": "Cambodia",
+    "iso2": "KH",
+    "aliases": [],
+    "pop": 17
+  },
+  {
+    "flag": "🇿🇼",
+    "common": "Zimbabwe",
+    "full": "Zimbabwe",
+    "iso2": "ZW",
+    "aliases": [],
+    "pop": 16
+  },
+  {
+    "flag": "🇷🇼",
+    "common": "Rwanda",
+    "full": "Rwanda",
+    "iso2": "RW",
+    "aliases": [],
+    "pop": 14
+  },
+  {
+    "flag": "🇧🇯",
+    "common": "Benin",
+    "full": "Benin",
+    "iso2": "BJ",
+    "aliases": [],
+    "pop": 13
+  },
+  {
+    "flag": "🇧🇮",
+    "common": "Burundi",
+    "full": "Burundi",
+    "iso2": "BI",
+    "aliases": [],
+    "pop": 13
+  },
+  {
+    "flag": "🇧🇪",
+    "common": "Belgium",
+    "full": "Belgium",
+    "iso2": "BE",
+    "aliases": [],
+    "pop": 12
+  },
+  {
+    "flag": "🇧🇴",
+    "common": "Bolivia",
+    "full": "Plurinational State of Bolivia",
+    "iso2": "BO",
+    "aliases": [
+      "Bolivia",
+      "Plurinational State of Bolivia"
+    ],
+    "pop": 12
+  },
+  {
+    "flag": "🇹🇳",
+    "common": "Tunisia",
+    "full": "Tunisia",
+    "iso2": "TN",
+    "aliases": [],
+    "pop": 12
+  },
+  {
+    "flag": "🇨🇿",
+    "common": "Czech Republic",
+    "full": "Czech Republic",
+    "iso2": "CZ",
+    "aliases": [
+      "Czechia"
+    ],
+    "pop": 11
+  },
+  {
+    "flag": "🇩🇴",
+    "common": "Dominican Republic",
+    "full": "Dominican Republic",
+    "iso2": "DO",
+    "aliases": [],
+    "pop": 11
+  },
+  {
+    "flag": "🇯🇴",
+    "common": "Jordan",
+    "full": "Jordan",
+    "iso2": "JO",
+    "aliases": [],
+    "pop": 11
+  },
+  {
+    "flag": "🇸🇸",
+    "common": "South Sudan",
+    "full": "Republic of South Sudan",
+    "iso2": "SS",
+    "aliases": [
+      "South Sudan",
+      "Republic of South Sudan"
+    ],
+    "pop": 11
+  },
+  {
+    "flag": "🇦🇿",
+    "common": "Azerbaijan",
+    "full": "Azerbaijan",
+    "iso2": "AZ",
+    "aliases": [],
+    "pop": 10
+  },
+  {
+    "flag": "🇬🇷",
+    "common": "Greece",
+    "full": "Greece",
+    "iso2": "GR",
+    "aliases": [],
+    "pop": 10
+  },
+  {
+    "flag": "🇭🇺",
+    "common": "Hungary",
+    "full": "Hungary",
+    "iso2": "HU",
+    "aliases": [],
+    "pop": 10
+  },
+  {
+    "flag": "🇮🇱",
+    "common": "Israel",
+    "full": "Israel",
+    "iso2": "IL",
+    "aliases": [],
+    "pop": 10
+  },
+  {
+    "flag": "🇵🇹",
+    "common": "Portugal",
+    "full": "Portugal",
+    "iso2": "PT",
+    "aliases": [],
+    "pop": 10
+  },
+  {
+    "flag": "🇸🇪",
+    "common": "Sweden",
+    "full": "Sweden",
+    "iso2": "SE",
+    "aliases": [],
+    "pop": 10
+  },
+  {
+    "flag": "🇦🇪",
+    "common": "United Arab Emirates",
+    "full": "United Arab Emirates",
+    "iso2": "AE",
+    "aliases": [
+      "UAE"
+    ],
+    "pop": 10
+  },
+  {
+    "flag": "🇦🇹",
+    "common": "Austria",
+    "full": "Austria",
+    "iso2": "AT",
+    "aliases": [],
+    "pop": 9
+  },
+  {
+    "flag": "🇸🇱",
+    "common": "Sierra Leone",
+    "full": "Sierra Leone",
+    "iso2": "SL",
+    "aliases": [],
+    "pop": 9
+  },
+  {
+    "flag": "🇨🇭",
+    "common": "Switzerland",
+    "full": "Switzerland",
+    "iso2": "CH",
+    "aliases": [],
+    "pop": 9
+  },
+  {
+    "flag": "🇱🇦",
+    "common": "Laos",
+    "full": "Lao People's Democratic Republic",
+    "iso2": "LA",
+    "aliases": [
+      "Laos",
+      "Lao PDR",
+      "Lao People's Democratic Republic"
+    ],
+    "pop": 8
+  },
+  {
+    "flag": "🇧🇬",
+    "common": "Bulgaria",
+    "full": "Bulgaria",
+    "iso2": "BG",
+    "aliases": [],
+    "pop": 7
+  },
+  {
+    "flag": "🇭🇰",
+    "common": "Hong Kong SAR China",
+    "full": "Hong Kong",
+    "iso2": "HK",
+    "aliases": [
+      "Hong Kong SAR China",
+      "Hong Kong"
+    ],
+    "pop": 7
+  },
+  {
+    "flag": "🇱🇾",
+    "common": "Libya",
+    "full": "Libya",
+    "iso2": "LY",
+    "aliases": [],
+    "pop": 7
+  },
+  {
+    "flag": "🇵🇾",
+    "common": "Paraguay",
+    "full": "Paraguay",
+    "iso2": "PY",
+    "aliases": [],
+    "pop": 7
+  },
+  {
+    "flag": "🇷🇸",
+    "common": "Serbia",
+    "full": "Serbia",
+    "iso2": "RS",
+    "aliases": [],
+    "pop": 7
+  },
+  {
+    "flag": "🇨🇬",
+    "common": "Congo - Brazzaville",
+    "full": "Republic of the Congo",
+    "iso2": "CG",
+    "aliases": [
+      "Congo",
+      "Congo-Brazzaville",
+      "Congo (Rep.)",
+      "Republic of the Congo"
+    ],
+    "pop": 6
+  },
+  {
+    "flag": "🇩🇰",
+    "common": "Denmark",
+    "full": "Denmark",
+    "iso2": "DK",
+    "aliases": [],
+    "pop": 6
+  },
+  {
+    "flag": "🇸🇻",
+    "common": "El Salvador",
+    "full": "El Salvador",
+    "iso2": "SV",
+    "aliases": [
+      "El Salvador"
+    ],
+    "pop": 6
+  },
+  {
+    "flag": "🇫🇮",
+    "common": "Finland",
+    "full": "Finland",
+    "iso2": "FI",
+    "aliases": [],
+    "pop": 6
+  },
+  {
+    "flag": "🇱🇧",
+    "common": "Lebanon",
+    "full": "Lebanon",
+    "iso2": "LB",
+    "aliases": [],
+    "pop": 6
+  },
+  {
+    "flag": "🇳🇴",
+    "common": "Norway",
+    "full": "Norway",
+    "iso2": "NO",
+    "aliases": [],
+    "pop": 6
+  },
+  {
+    "flag": "🇸🇬",
+    "common": "Singapore",
+    "full": "Republic of Singapore",
+    "iso2": "SG",
+    "aliases": [
+      "Republic of Singapore"
+    ],
+    "pop": 6
+  },
+  {
+    "flag": "🇮🇪",
+    "common": "Ireland",
+    "full": "Ireland",
+    "iso2": "IE",
+    "aliases": [],
+    "pop": 5
+  },
+  {
+    "flag": "🇲🇷",
+    "common": "Mauritania",
+    "full": "Mauritania",
+    "iso2": "MR",
+    "aliases": [],
+    "pop": 5
+  },
+  {
+    "flag": "🇳🇿",
+    "common": "New Zealand",
+    "full": "New Zealand",
+    "iso2": "NZ",
+    "aliases": [],
+    "pop": 5
+  },
+  {
+    "flag": "🇴🇲",
+    "common": "Oman",
+    "full": "Oman",
+    "iso2": "OM",
+    "aliases": [],
+    "pop": 5
+  },
+  {
+    "flag": "🇵🇸",
+    "common": "Palestine",
+    "full": "State of Palestine",
+    "iso2": "PS",
+    "aliases": [
+      "Palestinian Territories",
+      "State of Palestine"
+    ],
+    "pop": 5
+  },
+  {
+    "flag": "🇸🇰",
+    "common": "Slovakia",
+    "full": "Slovakia",
+    "iso2": "SK",
+    "aliases": [
+      "Slovakia"
+    ],
+    "pop": 5
+  },
+  {
+    "flag": "🇭🇷",
+    "common": "Croatia",
+    "full": "Croatia",
+    "iso2": "HR",
+    "aliases": [],
+    "pop": 4
+  },
+  {
+    "flag": "🇺🇾",
+    "common": "Uruguay",
+    "full": "Uruguay",
+    "iso2": "UY",
+    "aliases": [],
+    "pop": 4
+  },
+  {
+    "flag": "🇦🇱",
+    "common": "Albania",
+    "full": "Albania",
+    "iso2": "AL",
+    "aliases": [],
+    "pop": 3
+  },
+  {
+    "flag": "🇬🇲",
+    "common": "Gambia",
+    "full": "Republic of the Gambia",
+    "iso2": "GM",
+    "aliases": [
+      "Gambia",
+      "Republic of the Gambia"
+    ],
+    "pop": 3
+  },
+  {
+    "flag": "🇯🇲",
+    "common": "Jamaica",
+    "full": "Jamaica",
+    "iso2": "JM",
+    "aliases": [],
+    "pop": 3
+  },
+  {
+    "flag": "🇱🇹",
+    "common": "Lithuania",
+    "full": "Lithuania",
+    "iso2": "LT",
+    "aliases": [],
+    "pop": 3
+  },
+  {
+    "flag": "🇲🇩",
+    "common": "Moldova",
+    "full": "Republic of Moldova",
+    "iso2": "MD",
+    "aliases": [
+      "Moldova",
+      "Republic of Moldova"
+    ],
+    "pop": 3
+  },
+  {
+    "flag": "🇲🇳",
+    "common": "Mongolia",
+    "full": "Mongolia",
+    "iso2": "MN",
+    "aliases": [],
+    "pop": 3
+  },
+  {
+    "flag": "🇳🇦",
+    "common": "Namibia",
+    "full": "Namibia",
+    "iso2": "NA",
+    "aliases": [],
+    "pop": 3
+  },
+  {
+    "flag": "🇵🇷",
+    "common": "Puerto Rico",
+    "full": "Puerto Rico",
+    "iso2": "PR",
+    "aliases": [],
+    "pop": 3
+  },
+  {
+    "flag": "🇱🇻",
+    "common": "Latvia",
+    "full": "Latvia",
+    "iso2": "LV",
+    "aliases": [],
+    "pop": 2
+  },
+  {
+    "flag": "🇲🇰",
+    "common": "North Macedonia",
+    "full": "North Macedonia",
+    "iso2": "MK",
+    "aliases": [
+      "Macedonia"
+    ],
+    "pop": 2
+  },
+  {
+    "flag": "🇸🇮",
+    "common": "Slovenia",
+    "full": "Slovenia",
+    "iso2": "SI",
+    "aliases": [],
+    "pop": 2
+  },
+  {
+    "flag": "🇧🇳",
+    "common": "Brunei",
+    "full": "Brunei Darussalam",
+    "iso2": "BN",
+    "aliases": [
+      "Brunei",
+      "Brunei Darussalam"
+    ],
+    "pop": 1
+  },
+  {
+    "flag": "🇸🇿",
+    "common": "Eswatini",
+    "full": "Kingdom of Eswatini",
+    "iso2": "SZ",
+    "aliases": [
+      "Swaziland",
+      "Eswatini (Swaziland)",
+      "Kingdom of Eswatini"
+    ],
+    "pop": 1
+  },
+  {
+    "flag": "🇱🇺",
+    "common": "Luxembourg",
+    "full": "Luxembourg",
+    "iso2": "LU",
+    "aliases": [],
+    "pop": 1
+  },
+  {
+    "flag": "🇹🇱",
+    "common": "Timor-Leste",
+    "full": "Democratic Republic of Timor-Leste",
+    "iso2": "TL",
+    "aliases": [
+      "East Timor",
+      "Democratic Republic of Timor-Leste"
+    ],
+    "pop": 1
+  },
+  {
+    "flag": "🇦🇽",
+    "common": "Åland Islands",
+    "full": "Åland Islands",
+    "iso2": "AX",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇦🇸",
+    "common": "American Samoa",
+    "full": "American Samoa",
+    "iso2": "AS",
+    "aliases": [
+      "Samoa (American)"
+    ],
+    "pop": 0
+  },
+  {
+    "flag": "🇦🇩",
+    "common": "Andorra",
+    "full": "Andorra",
+    "iso2": "AD",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇦🇮",
+    "common": "Anguilla",
+    "full": "Anguilla",
+    "iso2": "AI",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇦🇶",
+    "common": "Antarctica",
+    "full": "Antarctica",
+    "iso2": "AQ",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇦🇬",
+    "common": "Antigua & Barbuda",
+    "full": "Antigua & Barbuda",
+    "iso2": "AG",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇦🇲",
+    "common": "Armenia",
+    "full": "Armenia",
+    "iso2": "AM",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇦🇼",
+    "common": "Aruba",
+    "full": "Aruba",
+    "iso2": "AW",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇧🇸",
+    "common": "Bahamas",
+    "full": "Bahamas",
+    "iso2": "BS",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇧🇭",
+    "common": "Bahrain",
+    "full": "Bahrain",
+    "iso2": "BH",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇧🇧",
+    "common": "Barbados",
+    "full": "Barbados",
+    "iso2": "BB",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇧🇾",
+    "common": "Belarus",
+    "full": "Belarus",
+    "iso2": "BY",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇧🇿",
+    "common": "Belize",
+    "full": "Belize",
+    "iso2": "BZ",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇧🇲",
+    "common": "Bermuda",
+    "full": "Bermuda",
+    "iso2": "BM",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇧🇹",
+    "common": "Bhutan",
+    "full": "Bhutan",
+    "iso2": "BT",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇧🇦",
+    "common": "Bosnia & Herzegovina",
+    "full": "Bosnia & Herzegovina",
+    "iso2": "BA",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇧🇼",
+    "common": "Botswana",
+    "full": "Botswana",
+    "iso2": "BW",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇧🇻",
+    "common": "Bouvet Island",
+    "full": "Bouvet Island",
+    "iso2": "BV",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇮🇴",
+    "common": "British Indian Ocean Territory",
+    "full": "British Indian Ocean Territory",
+    "iso2": "IO",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇻🇬",
+    "common": "British Virgin Islands",
+    "full": "British Virgin Islands",
+    "iso2": "VG",
+    "aliases": [
+      "Virgin Islands (UK)"
+    ],
+    "pop": 0
+  },
+  {
+    "flag": "🇨🇻",
+    "common": "Cape Verde",
+    "full": "Cape Verde",
+    "iso2": "CV",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇧🇶",
+    "common": "Caribbean Netherlands",
+    "full": "Caribbean Netherlands",
+    "iso2": "BQ",
+    "aliases": [
+      "Caribbean NL"
+    ],
+    "pop": 0
+  },
+  {
+    "flag": "🇰🇾",
+    "common": "Cayman Islands",
+    "full": "Cayman Islands",
+    "iso2": "KY",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇨🇫",
+    "common": "Central African Republic",
+    "full": "Central African Republic",
+    "iso2": "CF",
+    "aliases": [
+      "Central African Rep."
+    ],
+    "pop": 0
+  },
+  {
+    "flag": "🇨🇽",
+    "common": "Christmas Island",
+    "full": "Christmas Island",
+    "iso2": "CX",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇨🇨",
+    "common": "Cocos (Keeling) Islands",
+    "full": "Cocos (Keeling) Islands",
+    "iso2": "CC",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇰🇲",
+    "common": "Comoros",
+    "full": "Comoros",
+    "iso2": "KM",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇨🇰",
+    "common": "Cook Islands",
+    "full": "Cook Islands",
+    "iso2": "CK",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇨🇷",
+    "common": "Costa Rica",
+    "full": "Costa Rica",
+    "iso2": "CR",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇨🇺",
+    "common": "Cuba",
+    "full": "Cuba",
+    "iso2": "CU",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇨🇼",
+    "common": "Curaçao",
+    "full": "Curaçao",
+    "iso2": "CW",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇨🇾",
+    "common": "Cyprus",
+    "full": "Cyprus",
+    "iso2": "CY",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇩🇯",
+    "common": "Djibouti",
+    "full": "Djibouti",
+    "iso2": "DJ",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇩🇲",
+    "common": "Dominica",
+    "full": "Dominica",
+    "iso2": "DM",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇬🇶",
+    "common": "Equatorial Guinea",
+    "full": "Equatorial Guinea",
+    "iso2": "GQ",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇪🇷",
+    "common": "Eritrea",
+    "full": "Eritrea",
+    "iso2": "ER",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇪🇪",
+    "common": "Estonia",
+    "full": "Estonia",
+    "iso2": "EE",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇫🇰",
+    "common": "Falkland Islands",
+    "full": "Falkland Islands",
+    "iso2": "FK",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇫🇴",
+    "common": "Faroe Islands",
+    "full": "Faroe Islands",
+    "iso2": "FO",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇫🇯",
+    "common": "Fiji",
+    "full": "Fiji",
+    "iso2": "FJ",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇬🇫",
+    "common": "French Guiana",
+    "full": "French Guiana",
+    "iso2": "GF",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇵🇫",
+    "common": "French Polynesia",
+    "full": "French Polynesia",
+    "iso2": "PF",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇹🇫",
+    "common": "French Southern Territories",
+    "full": "French Southern Territories",
+    "iso2": "TF",
+    "aliases": [
+      "French S. Terr."
+    ],
+    "pop": 0
+  },
+  {
+    "flag": "🇬🇦",
+    "common": "Gabon",
+    "full": "Gabon",
+    "iso2": "GA",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇬🇪",
+    "common": "Georgia",
+    "full": "Georgia",
+    "iso2": "GE",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇬🇮",
+    "common": "Gibraltar",
+    "full": "Gibraltar",
+    "iso2": "GI",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇬🇱",
+    "common": "Greenland",
+    "full": "Greenland",
+    "iso2": "GL",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇬🇩",
+    "common": "Grenada",
+    "full": "Grenada",
+    "iso2": "GD",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇬🇵",
+    "common": "Guadeloupe",
+    "full": "Guadeloupe",
+    "iso2": "GP",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇬🇺",
+    "common": "Guam",
+    "full": "Guam",
+    "iso2": "GU",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇬🇬",
+    "common": "Guernsey",
+    "full": "Guernsey",
+    "iso2": "GG",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇬🇳",
+    "common": "Guinea",
+    "full": "Guinea",
+    "iso2": "GN",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇬🇼",
+    "common": "Guinea-Bissau",
+    "full": "Guinea-Bissau",
+    "iso2": "GW",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇬🇾",
+    "common": "Guyana",
+    "full": "Guyana",
+    "iso2": "GY",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇭🇹",
+    "common": "Haiti",
+    "full": "Haiti",
+    "iso2": "HT",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇭🇲",
+    "common": "Heard & McDonald Islands",
+    "full": "Heard & McDonald Islands",
+    "iso2": "HM",
+    "aliases": [
+      "Heard Island & McDonald Islands"
+    ],
+    "pop": 0
+  },
+  {
+    "flag": "🇭🇳",
+    "common": "Honduras",
+    "full": "Honduras",
+    "iso2": "HN",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇮🇸",
+    "common": "Iceland",
+    "full": "Iceland",
+    "iso2": "IS",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇮🇲",
+    "common": "Isle of Man",
+    "full": "Isle of Man",
+    "iso2": "IM",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇯🇪",
+    "common": "Jersey",
+    "full": "Jersey",
+    "iso2": "JE",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇰🇮",
+    "common": "Kiribati",
+    "full": "Kiribati",
+    "iso2": "KI",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇰🇼",
+    "common": "Kuwait",
+    "full": "Kuwait",
+    "iso2": "KW",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇰🇬",
+    "common": "Kyrgyzstan",
+    "full": "Kyrgyzstan",
+    "iso2": "KG",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇱🇸",
+    "common": "Lesotho",
+    "full": "Lesotho",
+    "iso2": "LS",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇱🇷",
+    "common": "Liberia",
+    "full": "Liberia",
+    "iso2": "LR",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇱🇮",
+    "common": "Liechtenstein",
+    "full": "Liechtenstein",
+    "iso2": "LI",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇲🇴",
+    "common": "Macao",
+    "full": "Macao",
+    "iso2": "MO",
+    "aliases": [
+      "Macau",
+      "Macao SAR China"
+    ],
+    "pop": 0
+  },
+  {
+    "flag": "🇲🇻",
+    "common": "Maldives",
+    "full": "Maldives",
+    "iso2": "MV",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇲🇹",
+    "common": "Malta",
+    "full": "Malta",
+    "iso2": "MT",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇲🇭",
+    "common": "Marshall Islands",
+    "full": "Marshall Islands",
+    "iso2": "MH",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇲🇶",
+    "common": "Martinique",
+    "full": "Martinique",
+    "iso2": "MQ",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇲🇺",
+    "common": "Mauritius",
+    "full": "Mauritius",
+    "iso2": "MU",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇾🇹",
+    "common": "Mayotte",
+    "full": "Mayotte",
+    "iso2": "YT",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇫🇲",
+    "common": "Micronesia",
+    "full": "Micronesia",
+    "iso2": "FM",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇲🇨",
+    "common": "Monaco",
+    "full": "Monaco",
+    "iso2": "MC",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇲🇪",
+    "common": "Montenegro",
+    "full": "Montenegro",
+    "iso2": "ME",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇲🇸",
+    "common": "Montserrat",
+    "full": "Montserrat",
+    "iso2": "MS",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇳🇷",
+    "common": "Nauru",
+    "full": "Nauru",
+    "iso2": "NR",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇳🇨",
+    "common": "New Caledonia",
+    "full": "New Caledonia",
+    "iso2": "NC",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇳🇮",
+    "common": "Nicaragua",
+    "full": "Nicaragua",
+    "iso2": "NI",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇳🇺",
+    "common": "Niue",
+    "full": "Niue",
+    "iso2": "NU",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇳🇫",
+    "common": "Norfolk Island",
+    "full": "Norfolk Island",
+    "iso2": "NF",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇲🇵",
+    "common": "Northern Mariana Islands",
+    "full": "Northern Mariana Islands",
+    "iso2": "MP",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇵🇼",
+    "common": "Palau",
+    "full": "Palau",
+    "iso2": "PW",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇵🇦",
+    "common": "Panama",
+    "full": "Panama",
+    "iso2": "PA",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇵🇬",
+    "common": "Papua New Guinea",
+    "full": "Papua New Guinea",
+    "iso2": "PG",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇵🇳",
+    "common": "Pitcairn Islands",
+    "full": "Pitcairn Islands",
+    "iso2": "PN",
+    "aliases": [
+      "Pitcairn"
+    ],
+    "pop": 0
+  },
+  {
+    "flag": "🇶🇦",
+    "common": "Qatar",
+    "full": "Qatar",
+    "iso2": "QA",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇷🇪",
+    "common": "Réunion",
+    "full": "Réunion",
+    "iso2": "RE",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇼🇸",
+    "common": "Samoa",
+    "full": "Samoa",
+    "iso2": "WS",
+    "aliases": [
+      "Samoa (western)"
+    ],
+    "pop": 0
+  },
+  {
+    "flag": "🇸🇲",
+    "common": "San Marino",
+    "full": "San Marino",
+    "iso2": "SM",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇸🇹",
+    "common": "São Tomé & Príncipe",
+    "full": "São Tomé & Príncipe",
+    "iso2": "ST",
+    "aliases": [
+      "Sao Tome & Principe"
+    ],
+    "pop": 0
+  },
+  {
+    "flag": "🇸🇨",
+    "common": "Seychelles",
+    "full": "Seychelles",
+    "iso2": "SC",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇸🇽",
+    "common": "Sint Maarten",
+    "full": "Sint Maarten",
+    "iso2": "SX",
+    "aliases": [
+      "St Maarten (Dutch)"
+    ],
+    "pop": 0
+  },
+  {
+    "flag": "🇸🇧",
+    "common": "Solomon Islands",
+    "full": "Solomon Islands",
+    "iso2": "SB",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇬🇸",
+    "common": "South Georgia & South Sandwich Islands",
+    "full": "South Georgia & South Sandwich Islands",
+    "iso2": "GS",
+    "aliases": [
+      "South Georgia & the South Sandwich Islands"
+    ],
+    "pop": 0
+  },
+  {
+    "flag": "🇧🇱",
+    "common": "St. Barthélemy",
+    "full": "St. Barthélemy",
+    "iso2": "BL",
+    "aliases": [
+      "St Barthelemy"
+    ],
+    "pop": 0
+  },
+  {
+    "flag": "🇸🇭",
+    "common": "St. Helena",
+    "full": "St. Helena",
+    "iso2": "SH",
+    "aliases": [
+      "St Helena"
+    ],
+    "pop": 0
+  },
+  {
+    "flag": "🇰🇳",
+    "common": "St. Kitts & Nevis",
+    "full": "St. Kitts & Nevis",
+    "iso2": "KN",
+    "aliases": [
+      "St Kitts & Nevis"
+    ],
+    "pop": 0
+  },
+  {
+    "flag": "🇱🇨",
+    "common": "St. Lucia",
+    "full": "St. Lucia",
+    "iso2": "LC",
+    "aliases": [
+      "St Lucia"
+    ],
+    "pop": 0
+  },
+  {
+    "flag": "🇲🇫",
+    "common": "St. Martin",
+    "full": "St. Martin",
+    "iso2": "MF",
+    "aliases": [
+      "St Martin (French)"
+    ],
+    "pop": 0
+  },
+  {
+    "flag": "🇵🇲",
+    "common": "St. Pierre & Miquelon",
+    "full": "St. Pierre & Miquelon",
+    "iso2": "PM",
+    "aliases": [
+      "St Pierre & Miquelon"
+    ],
+    "pop": 0
+  },
+  {
+    "flag": "🇻🇨",
+    "common": "St. Vincent & Grenadines",
+    "full": "St. Vincent & Grenadines",
+    "iso2": "VC",
+    "aliases": [
+      "St Vincent"
+    ],
+    "pop": 0
+  },
+  {
+    "flag": "🇸🇷",
+    "common": "Suriname",
+    "full": "Suriname",
+    "iso2": "SR",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇸🇯",
+    "common": "Svalbard & Jan Mayen",
+    "full": "Svalbard & Jan Mayen",
+    "iso2": "SJ",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇹🇯",
+    "common": "Tajikistan",
+    "full": "Tajikistan",
+    "iso2": "TJ",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇹🇬",
+    "common": "Togo",
+    "full": "Togo",
+    "iso2": "TG",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇹🇰",
+    "common": "Tokelau",
+    "full": "Tokelau",
+    "iso2": "TK",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇹🇴",
+    "common": "Tonga",
+    "full": "Tonga",
+    "iso2": "TO",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇹🇹",
+    "common": "Trinidad & Tobago",
+    "full": "Trinidad & Tobago",
+    "iso2": "TT",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇹🇲",
+    "common": "Turkmenistan",
+    "full": "Turkmenistan",
+    "iso2": "TM",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇹🇨",
+    "common": "Turks & Caicos Islands",
+    "full": "Turks & Caicos Islands",
+    "iso2": "TC",
+    "aliases": [
+      "Turks & Caicos Is"
+    ],
+    "pop": 0
+  },
+  {
+    "flag": "🇹🇻",
+    "common": "Tuvalu",
+    "full": "Tuvalu",
+    "iso2": "TV",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇺🇲",
+    "common": "U.S. Outlying Islands",
+    "full": "U.S. Outlying Islands",
+    "iso2": "UM",
+    "aliases": [
+      "US minor outlying islands"
+    ],
+    "pop": 0
+  },
+  {
+    "flag": "🇻🇮",
+    "common": "U.S. Virgin Islands",
+    "full": "U.S. Virgin Islands",
+    "iso2": "VI",
+    "aliases": [
+      "Virgin Islands (US)"
+    ],
+    "pop": 0
+  },
+  {
+    "flag": "🇻🇺",
+    "common": "Vanuatu",
+    "full": "Vanuatu",
+    "iso2": "VU",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇻🇦",
+    "common": "Vatican City",
+    "full": "Vatican City",
+    "iso2": "VA",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇼🇫",
+    "common": "Wallis & Futuna",
+    "full": "Wallis & Futuna",
+    "iso2": "WF",
+    "aliases": [],
+    "pop": 0
+  },
+  {
+    "flag": "🇪🇭",
+    "common": "Western Sahara",
+    "full": "Western Sahara",
+    "iso2": "EH",
+    "aliases": [],
+    "pop": 0
+  }
+]

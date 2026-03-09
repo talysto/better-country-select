@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Better Country Select Demo</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <main class="page">
+    <header class="page-header">
+      <div class="eyebrow">Demo Package</div>
+      <h1>Better Country Select</h1>
+      <p class="lede">A standalone reference implementation of the improved country picker.</p>
+      <p class="header-links">
+        <a href="https://talysto.com/blog/building-better-country-selects/">Read more about this design..</a>
+        <a href="https://github.com/talysto/better-country-select">Github</a>
+      </p>
+    </header>
+
+    <section class="panel">
+      <h2>Zero-dependency, vanilla HTML/JS Modal Country Select</h2>
+
+      <div class="demo-form">
+        <label for="country-trigger">Country / Region</label>
+        <button
+          id="country-trigger"
+          class="country-trigger"
+          type="button"
+          aria-controls="modal-overlay"
+          aria-expanded="false"
+          aria-haspopup="dialog"
+          disabled
+        >
+          <span class="trigger-main">
+            <span id="trigger-flag" class="trigger-flag">🌍</span>
+            <span id="trigger-name" class="trigger-name">Loading countries...</span>
+          </span>
+          <span id="trigger-chevron" class="trigger-chevron">▾</span>
+        </button>
+        <p id="picker-status" class="demo-status" role="status" aria-live="polite">Loading the full country and region list...</p>
+      </div>
+
+      <div class="feature-list">
+        <div class="feature-item">
+          <div class="feature-title">Autocomplete search</div>
+          <div class="feature-desc">Search by common name, formal name, alias, or 2-letter code.</div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-title">Locale suggestion</div>
+          <div class="feature-desc">Uses browser locale to surface a likely country without forcing a default.</div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-title">Full dataset</div>
+          <div class="feature-desc">Ships the complete country and region list instead of a short sample set.</div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-title">Portable structure</div>
+          <div class="feature-desc">HTML, CSS, JavaScript, and data are separated for easier reuse.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel panel-subtle">
+      <h2>Files</h2>
+      <ul class="file-list">
+        <li><code>index.html</code> contains only the demo markup.</li>
+        <li><code>styles.css</code> contains presentation and modal layout styling.</li>
+        <li><code>app.js</code> loads country data and wires the picker behavior.</li>
+        <li><code>countries.json</code> contains the full country and region records used by the demo.</li>
+      </ul>
+    </section>
+  </main>
+
+  <div id="modal-overlay" class="modal-overlay" aria-hidden="true">
+    <div
+      id="country-dialog"
+      class="modal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="country-dialog-title"
+      aria-describedby="country-dialog-help"
+    >
+      <div class="modal-header">
+        <h3 id="country-dialog-title" class="modal-title">Select Country</h3>
+        <button id="modal-close" class="modal-close" type="button">Close</button>
+        <label class="visually-hidden" for="modal-search">Search countries and regions</label>
+        <p id="country-dialog-help" class="visually-hidden">Search by common name, formal name, alias, or 2-letter country code.</p>
+        <input id="modal-search" class="modal-search" type="text" placeholder="Search by name, alias, or 2-letter code" autocomplete="off" spellcheck="false">
+      </div>
+      <div id="modal-body" class="modal-body" aria-live="polite"></div>
+    </div>
+  </div>
+
+  <script src="./app.js" defer></script>
+</body>
+</html>
