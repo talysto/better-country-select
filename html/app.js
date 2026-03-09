@@ -3,7 +3,6 @@ const triggerFlag = document.getElementById("trigger-flag");
 const triggerName = document.getElementById("trigger-name");
 const triggerChevron = document.getElementById("trigger-chevron");
 const pickerStatus = document.getElementById("picker-status");
-const overlay = document.getElementById("modal-overlay");
 const dialog = document.getElementById("country-dialog");
 const closeButton = document.getElementById("modal-close");
 const searchInput = document.getElementById("modal-search");
@@ -261,20 +260,11 @@ function renderModal(query = "") {
   modalBody.append(renderGrid(remainingCountries, "All countries and regions"));
 }
 
-function getFocusableElements() {
-  return Array.from(
-    dialog.querySelectorAll(
-      'button:not([disabled]), input:not([disabled]), [href], [tabindex]:not([tabindex="-1"])'
-    )
-  );
-}
-
 function openModal() {
   if (trigger.disabled || loadError) return;
 
   lastFocusedElement = document.activeElement;
-  overlay.classList.add("is-active");
-  overlay.setAttribute("aria-hidden", "false");
+  dialog.showModal();
   document.body.classList.add("modal-open");
   trigger.setAttribute("aria-expanded", "true");
   searchInput.value = "";
@@ -283,10 +273,9 @@ function openModal() {
 }
 
 function closeModal() {
-  if (!overlay.classList.contains("is-active")) return;
+  if (!dialog.open) return;
 
-  overlay.classList.remove("is-active");
-  overlay.setAttribute("aria-hidden", "true");
+  dialog.close();
   document.body.classList.remove("modal-open");
   trigger.setAttribute("aria-expanded", "false");
 
@@ -321,34 +310,28 @@ async function loadCountries() {
 trigger.addEventListener("click", openModal);
 closeButton.addEventListener("click", closeModal);
 searchInput.addEventListener("input", () => renderModal(searchInput.value));
-overlay.addEventListener("click", (event) => {
-  if (event.target === overlay) closeModal();
+dialog.addEventListener("click", (event) => {
+  const bounds = dialog.getBoundingClientRect();
+  const clickedInDialog =
+    event.clientX >= bounds.left &&
+    event.clientX <= bounds.right &&
+    event.clientY >= bounds.top &&
+    event.clientY <= bounds.bottom;
+
+  if (!clickedInDialog) closeModal();
 });
-
-document.addEventListener("keydown", (event) => {
-  if (!overlay.classList.contains("is-active")) return;
-
-  if (event.key === "Escape") {
-    event.preventDefault();
-    closeModal();
-    return;
-  }
-
-  if (event.key !== "Tab") return;
-
-  const focusableElements = getFocusableElements();
-  if (!focusableElements.length) return;
-
-  const firstElement = focusableElements[0];
-  const lastElement = focusableElements[focusableElements.length - 1];
-
-  if (event.shiftKey && document.activeElement === firstElement) {
-    event.preventDefault();
-    lastElement.focus();
-  } else if (!event.shiftKey && document.activeElement === lastElement) {
-    event.preventDefault();
-    firstElement.focus();
-  }
+dialog.addEventListener("close", () => {
+  document.body.classList.remove("modal-open");
+  trigger.setAttribute("aria-expanded", "false");
+});
+dialog.addEventListener("cancel", () => {
+  requestAnimationFrame(() => {
+    if (lastFocusedElement instanceof HTMLElement) {
+      lastFocusedElement.focus();
+    } else {
+      trigger.focus();
+    }
+  });
 });
 
 loadCountries().catch((error) => {

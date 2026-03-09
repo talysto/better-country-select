@@ -221,20 +221,6 @@ h2 {
   margin-top: 0.45rem;
 }
 
-.modal-overlay {
-  display: none;
-  position: fixed;
-  inset: 0;
-  padding: 1rem;
-  background: rgba(15, 23, 42, 0.45);
-  align-items: center;
-  justify-content: center;
-}
-
-.modal-overlay.is-active {
-  display: flex;
-}
-
 .modal {
   width: min(760px, 100%);
   max-height: min(80vh, 760px);
@@ -242,8 +228,17 @@ h2 {
   border-radius: 16px;
   background: var(--paper);
   box-shadow: 0 20px 60px rgba(15, 23, 42, 0.24);
-  display: flex;
+  border: 0;
+  padding: 0;
   flex-direction: column;
+}
+
+.modal[open] {
+  display: flex;
+}
+
+.modal::backdrop {
+  background: rgba(15, 23, 42, 0.45);
 }
 
 .modal-header {

@@ -2,17 +2,20 @@
 
 This is demo code for a modal country select which addresses many shortcomings of common country select inputs.
 
-GitHub:
+Features:
 
-https://github.com/talysto/better-country-select
+- Browser locale based country detection
+- Modal display for better context
+- Smarter sort heuristic
+- Emoji based flags
+- Full 2026 country list
+- Search matches on country code, common name, or full name
 
-Blog post:
+Links:
 
-https://talysto.com/blog/building-better-country-selects/
-
-View the demo online:
-
-https://talysto.com/blog/building-better-country-selects/
+- [GitHub](https://github.com/talysto/better-country-select)
+- [Blog post](https://talysto.com/blog/building-better-country-selects/)
+- [View the demo online](https://talysto.com/blog/building-better-country-selects/)
 
 ## Get the code
 

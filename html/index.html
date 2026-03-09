@@ -72,15 +72,12 @@
     </section>
   </main>
 
-  <div id="modal-overlay" class="modal-overlay" aria-hidden="true">
-    <div
-      id="country-dialog"
-      class="modal"
-      role="dialog"
-      aria-modal="true"
-      aria-labelledby="country-dialog-title"
-      aria-describedby="country-dialog-help"
-    >
+  <dialog
+    id="country-dialog"
+    class="modal"
+    aria-labelledby="country-dialog-title"
+    aria-describedby="country-dialog-help"
+  >
       <div class="modal-header">
         <h3 id="country-dialog-title" class="modal-title">Select Country</h3>
         <button id="modal-close" class="modal-close" type="button">Close</button>
@@ -89,8 +86,7 @@
         <input id="modal-search" class="modal-search" type="text" placeholder="Search by name, alias, or 2-letter code" autocomplete="off" spellcheck="false">
       </div>
       <div id="modal-body" class="modal-body" aria-live="polite"></div>
-    </div>
-  </div>
+  </dialog>
 
   <script src="./app.js" defer></script>
 </body>
