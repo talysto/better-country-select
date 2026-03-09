@@ -12,10 +12,12 @@
       <div class="eyebrow">Demo Package</div>
       <h1>Better Country Select</h1>
       <p class="lede">A standalone reference implementation of the improved country picker.</p>
-      <p class="header-links">
-        <a href="https://talysto.com/blog/building-better-country-selects/">Read more about this design..</a>
-        <a href="https://github.com/talysto/better-country-select">Github</a>
-      </p>
+      <nav class="header-links" aria-label="Project links">
+        <ul class="header-link-list">
+          <li><a href="https://talysto.com/blog/building-better-country-selects/">Read more about this design..</a></li>
+          <li><a href="https://github.com/talysto/better-country-select">Github</a></li>
+        </ul>
+      </nav>
     </header>
 
     <section class="panel">
@@ -27,7 +29,7 @@
           id="country-trigger"
           class="country-trigger"
           type="button"
-          aria-controls="modal-overlay"
+          aria-controls="country-dialog"
           aria-expanded="false"
           aria-haspopup="dialog"
           disabled
@@ -41,24 +43,24 @@
         <p id="picker-status" class="demo-status" role="status" aria-live="polite">Loading the full country and region list...</p>
       </div>
 
-      <div class="feature-list">
-        <div class="feature-item">
-          <div class="feature-title">Autocomplete search</div>
-          <div class="feature-desc">Search by common name, formal name, alias, or 2-letter code.</div>
-        </div>
-        <div class="feature-item">
-          <div class="feature-title">Locale suggestion</div>
-          <div class="feature-desc">Uses browser locale to surface a likely country without forcing a default.</div>
-        </div>
-        <div class="feature-item">
-          <div class="feature-title">Full dataset</div>
-          <div class="feature-desc">Ships the complete country and region list instead of a short sample set.</div>
-        </div>
-        <div class="feature-item">
-          <div class="feature-title">Portable structure</div>
-          <div class="feature-desc">HTML, CSS, JavaScript, and data are separated for easier reuse.</div>
-        </div>
-      </div>
+      <ul class="feature-list">
+        <li class="feature-item">
+          <h3 class="feature-title">Autocomplete search</h3>
+          <p class="feature-desc">Search by common name, formal name, alias, or 2-letter code.</p>
+        </li>
+        <li class="feature-item">
+          <h3 class="feature-title">Locale suggestion</h3>
+          <p class="feature-desc">Uses browser locale to surface a likely country without forcing a default.</p>
+        </li>
+        <li class="feature-item">
+          <h3 class="feature-title">Full dataset</h3>
+          <p class="feature-desc">Ships the complete country and region list instead of a short sample set.</p>
+        </li>
+        <li class="feature-item">
+          <h3 class="feature-title">Portable structure</h3>
+          <p class="feature-desc">HTML, CSS, JavaScript, and data are separated for easier reuse.</p>
+        </li>
+      </ul>
     </section>
 
     <section class="panel panel-subtle">
@@ -78,14 +80,20 @@
     aria-labelledby="country-dialog-title"
     aria-describedby="country-dialog-help"
   >
-      <div class="modal-header">
+      <article class="modal-shell">
+      <header class="modal-header">
         <h3 id="country-dialog-title" class="modal-title">Select Country</h3>
-        <button id="modal-close" class="modal-close" type="button">Close</button>
-        <label class="visually-hidden" for="modal-search">Search countries and regions</label>
         <p id="country-dialog-help" class="visually-hidden">Search by common name, formal name, alias, or 2-letter country code.</p>
-        <input id="modal-search" class="modal-search" type="text" placeholder="Search by name, alias, or 2-letter code" autocomplete="off" spellcheck="false">
-      </div>
+        <form method="dialog" class="modal-close-form">
+          <button id="modal-close" class="modal-close" type="submit" value="close">Close</button>
+        </form>
+        <form class="modal-search-form" role="search">
+          <label class="visually-hidden" for="modal-search">Search countries and regions</label>
+          <input id="modal-search" class="modal-search" type="text" placeholder="Search by name, alias, or 2-letter code" autocomplete="off" spellcheck="false">
+        </form>
+      </header>
       <div id="modal-body" class="modal-body" aria-live="polite"></div>
+      </article>
   </dialog>
 
   <script src="./app.js" defer></script>

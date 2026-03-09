@@ -4,7 +4,6 @@ const triggerName = document.getElementById("trigger-name");
 const triggerChevron = document.getElementById("trigger-chevron");
 const pickerStatus = document.getElementById("picker-status");
 const dialog = document.getElementById("country-dialog");
-const closeButton = document.getElementById("modal-close");
 const searchInput = document.getElementById("modal-search");
 const modalBody = document.getElementById("modal-body");
 
@@ -196,13 +195,11 @@ function renderGrid(items, title, suggestedIso2) {
   label.textContent = title;
   section.append(label);
 
-  const grid = document.createElement("div");
+  const grid = document.createElement("ul");
   grid.className = "country-grid";
-  grid.setAttribute("role", "list");
 
   items.forEach((country) => {
-    const item = document.createElement("div");
-    item.setAttribute("role", "listitem");
+    const item = document.createElement("li");
     item.append(buildCountryButton(country, suggestedIso2));
     grid.append(item);
   });
@@ -274,16 +271,7 @@ function openModal() {
 
 function closeModal() {
   if (!dialog.open) return;
-
   dialog.close();
-  document.body.classList.remove("modal-open");
-  trigger.setAttribute("aria-expanded", "false");
-
-  if (lastFocusedElement instanceof HTMLElement) {
-    lastFocusedElement.focus();
-  } else {
-    trigger.focus();
-  }
 }
 
 async function loadCountries() {
@@ -308,23 +296,13 @@ async function loadCountries() {
 }
 
 trigger.addEventListener("click", openModal);
-closeButton.addEventListener("click", closeModal);
 searchInput.addEventListener("input", () => renderModal(searchInput.value));
 dialog.addEventListener("click", (event) => {
-  const bounds = dialog.getBoundingClientRect();
-  const clickedInDialog =
-    event.clientX >= bounds.left &&
-    event.clientX <= bounds.right &&
-    event.clientY >= bounds.top &&
-    event.clientY <= bounds.bottom;
-
-  if (!clickedInDialog) closeModal();
+  if (event.target === dialog) closeModal();
 });
 dialog.addEventListener("close", () => {
   document.body.classList.remove("modal-open");
   trigger.setAttribute("aria-expanded", "false");
-});
-dialog.addEventListener("cancel", () => {
   requestAnimationFrame(() => {
     if (lastFocusedElement instanceof HTMLElement) {
       lastFocusedElement.focus();
