@@ -13,7 +13,6 @@ Features:
 
 Links:
 
-- [Read the blog post](https://talysto.com/blog/building-better-country-selects/)
 - [View the demo online](https://talysto.com/blog/building-better-country-selects/)
 - [GitHub](https://github.com/talysto/better-country-select)
 
@@ -30,10 +29,3 @@ Serve the `html` folder locally with a single command from the `html` directory:
 ```bash
 python -m http.server 8000
 ```
-
-Start with:
-
-- `better-country-select/html/index.html`
-- `better-country-select/html/styles.css`
-- `better-country-select/html/app.js`
-- `better-country-select/html/countries.json`
