@@ -13,9 +13,9 @@ Features:
 
 Links:
 
-- [GitHub](https://github.com/talysto/better-country-select)
-- [Blog post](https://talysto.com/blog/building-better-country-selects/)
+- [Read the blog post](https://talysto.com/blog/building-better-country-selects/)
 - [View the demo online](https://talysto.com/blog/building-better-country-selects/)
+- [GitHub](https://github.com/talysto/better-country-select)
 
 ## Get the code
 

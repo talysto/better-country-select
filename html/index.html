@@ -1,101 +1,95 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Better Country Select Demo</title>
-  <link rel="stylesheet" href="./styles.css">
-</head>
-<body>
-  <main class="page">
-    <header class="page-header">
-      <div class="eyebrow">Demo Package</div>
-      <h1>Better Country Select</h1>
-      <p class="lede">A standalone reference implementation of the improved country picker.</p>
-      <nav class="header-links" aria-label="Project links">
-        <ul class="header-link-list">
-          <li><a href="https://talysto.com/blog/building-better-country-selects/">Read more about this design..</a></li>
-          <li><a href="https://github.com/talysto/better-country-select">Github</a></li>
-        </ul>
-      </nav>
-    </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Country Select</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Better Country Select</h1>
+        <p>
+          A standalone reference implementation of the improved country picker.
+        </p>
+        <nav class="header-links" aria-label="Project links">
+          <ul class="header-link-list">
+            <li>
+              <a
+                href="https://talysto.com/blog/building-better-country-selects/"
+                >Read the blog post</a
+              >
+            </li>
+            <li>
+              <a href="https://github.com/talysto/better-country-select"
+                >View the code on Github</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </header>
 
-    <section class="panel">
-      <h2>Zero-dependency, vanilla HTML/JS Modal Country Select</h2>
-
-      <div class="demo-form">
-        <label for="country-trigger">Country / Region</label>
-        <button
-          id="country-trigger"
-          class="country-trigger"
-          type="button"
-          aria-controls="country-dialog"
-          aria-expanded="false"
-          aria-haspopup="dialog"
-          disabled
-        >
-          <span class="trigger-main">
-            <span id="trigger-flag" class="trigger-flag">🌍</span>
-            <span id="trigger-name" class="trigger-name">Loading countries...</span>
-          </span>
-          <span id="trigger-chevron" class="trigger-chevron">▾</span>
-        </button>
-        <p id="picker-status" class="demo-status" role="status" aria-live="polite">Loading the full country and region list...</p>
-      </div>
-
-      <ul class="feature-list">
-        <li class="feature-item">
-          <h3 class="feature-title">Autocomplete search</h3>
-          <p class="feature-desc">Search by common name, formal name, alias, or 2-letter code.</p>
-        </li>
-        <li class="feature-item">
-          <h3 class="feature-title">Locale suggestion</h3>
-          <p class="feature-desc">Uses browser locale to surface a likely country without forcing a default.</p>
-        </li>
-        <li class="feature-item">
-          <h3 class="feature-title">Full dataset</h3>
-          <p class="feature-desc">Ships the complete country and region list instead of a short sample set.</p>
-        </li>
-        <li class="feature-item">
-          <h3 class="feature-title">Portable structure</h3>
-          <p class="feature-desc">HTML, CSS, JavaScript, and data are separated for easier reuse.</p>
-        </li>
-      </ul>
-    </section>
-
-    <section class="panel panel-subtle">
-      <h2>Files</h2>
-      <ul class="file-list">
-        <li><code>index.html</code> contains only the demo markup.</li>
-        <li><code>styles.css</code> contains presentation and modal layout styling.</li>
-        <li><code>app.js</code> loads country data and wires the picker behavior.</li>
-        <li><code>countries.json</code> contains the full country and region records used by the demo.</li>
-      </ul>
-    </section>
-  </main>
-
-  <dialog
-    id="country-dialog"
-    class="modal"
-    aria-labelledby="country-dialog-title"
-    aria-describedby="country-dialog-help"
-  >
-      <article class="modal-shell">
-      <header class="modal-header">
-        <h3 id="country-dialog-title" class="modal-title">Select Country</h3>
-        <p id="country-dialog-help" class="visually-hidden">Search by common name, formal name, alias, or 2-letter country code.</p>
-        <form method="dialog" class="modal-close-form">
-          <button id="modal-close" class="modal-close" type="submit" value="close">Close</button>
+      <section>
+        <h2>Better Country Select Demo</h2>
+        <form id="demo-form">
+          <label for="full-name">Full Name</label>
+          <input
+            id="full-name"
+            name="full_name"
+            type="text"
+            autocomplete="name"
+            placeholder="Ada Lovelace"
+          />
+          <label for="trigger">Country / Region</label>
+          <input id="country-value" name="country" type="hidden" />
+          <button
+            id="trigger"
+            type="button"
+            aria-controls="picker"
+            aria-expanded="false"
+            aria-haspopup="dialog"
+            disabled
+          >
+            <span id="flag" aria-hidden="true">🌍</span>
+            <span id="name">Loading countries...</span>
+          </button>
+          <div class="actions">
+            <button id="submit" type="submit">Submit</button>
+          </div>
         </form>
-        <form class="modal-search-form" role="search">
-          <label class="visually-hidden" for="modal-search">Search countries and regions</label>
-          <input id="modal-search" class="modal-search" type="text" placeholder="Search by name, alias, or 2-letter code" autocomplete="off" spellcheck="false">
+      </section>
+
+      <section>
+        <h2>Features</h2>
+        <ul>
+          <li>Zero-dependency HTML, JS, CSS</li>
+          <li>Locale-based suggestion</li>
+          <li>Search by name, alias, and code</li>
+          <li>Full country dataset</li>
+          <li>Native dialog interaction</li>
+        </ul>
+      </section>
+    </main>
+
+    <dialog id="picker" aria-labelledby="title">
+      <header class="bar">
+        <h2 id="title">Select country</h2>
+        <form method="dialog">
+          <button>Close</button>
         </form>
       </header>
-      <div id="modal-body" class="modal-body" aria-live="polite"></div>
-      </article>
-  </dialog>
+      <label class="sr-only" for="search">Search countries and regions</label>
+      <input
+        id="search"
+        type="text"
+        placeholder="Search by name or code"
+        autocomplete="off"
+        spellcheck="false"
+      />
+      <div id="results" aria-live="polite"></div>
+    </dialog>
 
-  <script src="./app.js" defer></script>
-</body>
+    <script src="./country-select.js" defer></script>
+  </body>
 </html>
